@@ -1,4 +1,5 @@
 import  java.util.Scanner;
+
 public class exOne {
     public static void printDigits(int n) {
         if (n < 10) {System.out.println(n);}

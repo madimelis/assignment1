@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class exFive {
     public static int fib(int n) {
         if (n == 0) {return 0;}
