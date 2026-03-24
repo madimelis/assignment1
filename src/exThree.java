@@ -4,9 +4,9 @@ public class exThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+        int number = sc.nextInt();
 
-        if (isPrime(num, 2)) {
+        if (isPrime(number, 2)) {
             System.out.println("Prime");
         }
         else {System.out.println("Composite");}

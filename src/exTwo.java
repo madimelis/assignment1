@@ -5,16 +5,17 @@ public class exTwo {
     public static double sumRecursive(Scanner sc, int n) {
         if (n == 0) {return 0;}
         else {
-            int num = sc.nextInt();
-            return num + sumRecursive(sc, n - 1);
+            int number = sc.nextInt();
+            return number + sumRecursive(sc, n - 1);
         }
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        double sum = sumRecursive(sc, n);
-        double avg = sum / n;
+        int number = sc.nextInt();
+        double sum = sumRecursive(sc, number);
+        double avg = sum / number;
         System.out.println(avg);
+        sc.close();
     }
 }

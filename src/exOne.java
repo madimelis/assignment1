@@ -13,5 +13,6 @@ public class exOne {
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
         printDigits(number);
+        sc.close();
     }
 }
